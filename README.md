@@ -1,1 +1,1 @@
-# Curso de Programación Competitiva FIC-UAS
+# Programación Competitiva FIC-UAS 2022
