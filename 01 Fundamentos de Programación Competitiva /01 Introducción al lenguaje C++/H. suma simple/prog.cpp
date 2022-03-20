@@ -2,7 +2,13 @@
 using namespace std;
 int main() {
   
-  cout << "Hola mundo";
+  int n;
+  
+  cin >> n;
+
+  n++;
+
+  cout << n;
 
   return 0;
 }
