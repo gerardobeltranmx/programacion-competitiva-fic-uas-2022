@@ -1,6 +1,6 @@
 Cambio de prompt shell Linux
-  PS1="\W\$ "
-
-
+  PS1="\w\$ "
+Cambio de prompt shell MAC
+PS1="%1~ $ "
 
 
