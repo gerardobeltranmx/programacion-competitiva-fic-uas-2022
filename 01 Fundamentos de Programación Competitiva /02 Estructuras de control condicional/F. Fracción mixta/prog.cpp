@@ -17,7 +17,5 @@ int main()
     else
         cout << a << " " << b << "/" << m << endl;   
  
-
-
     return 0;
 }
