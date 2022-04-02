@@ -9,8 +9,6 @@ int main()
     float prom;
 
     cin >> numListas; // Numero de listas 
-
-
     for (l=0; l< numListas; l++ ){ // recorre todas las listas
         suma=0;
         menor=1001;
