@@ -5,6 +5,7 @@ using namespace std;
 int main()
 {
     int n, suma=0;
+   
     do {
         cin >> n;
         suma += n;
