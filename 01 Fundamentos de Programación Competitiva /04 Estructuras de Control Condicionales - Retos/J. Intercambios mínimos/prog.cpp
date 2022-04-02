@@ -10,28 +10,20 @@ int main()
 
     cin >> A >> B >> C ;
 
-    if (A > B) {
-
-        if (B > C){
+    if (A > B) 
+        if (B > C)
             N++;
-        }
-        else {
-            if (B < C  and A < C){
-            N++;
-            }
-            else{
-                N+=2;
-            }
-        }
-    }
-    else {
-        if ( B > C and  C > A){
-            N++;
-        }  
-        else if (C<A){
+        else 
+            if (B < C  and A < C)
+                N++;
+            else
+                N+=2;    
+    else 
+        if ( B > C and  C > A)
+            N++; 
+        else if (C<A)
             N+=2;
-        }
-    }
+ 
 
     cout << N << endl;
 
