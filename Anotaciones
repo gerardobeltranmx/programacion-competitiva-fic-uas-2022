@@ -1,6 +1,11 @@
 Cambio de prompt shell Linux
-  PS1="\w\$ "
+  PS1="\W\$ "
 Cambio de prompt shell MAC
 PS1="%1~ $ "
+
+Cancelaciones
+13495367
+13495373
+
 
 
