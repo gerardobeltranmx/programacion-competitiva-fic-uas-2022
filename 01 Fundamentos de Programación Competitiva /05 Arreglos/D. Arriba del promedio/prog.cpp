@@ -23,8 +23,9 @@ double promedio, porcentaje;
         promedio = (double) suma / n; // promedio del caso/grupo
 
         for (i=0; i < n ; i++){
-            if (calif[i]>promedio)
+            if (calif[i]>promedio){
                 contador++;
+            }
         }
 
         // Porcentaje del caso/grupo
