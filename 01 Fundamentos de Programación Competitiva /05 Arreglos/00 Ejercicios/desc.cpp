@@ -12,7 +12,7 @@ for( i = 0 ; i < N; i++ ) {
 cin >> datos[i];
 }
 qsort(datos, N, sizeof(int), desc); // Función de ordenación
-cout << endl << "Datos Ordenados" << endl;
+cout << endl << "Datos Ordenados Descendente" << endl;
 for( i = 0 ; i < N; i++ ) {
 cout << datos[i] << " ";
 }
